@@ -1,4 +1,4 @@
-package sto;
+package sto.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -7,6 +7,5 @@ import java.lang.annotation.RetentionPolicy;
 public @interface DefinitionAnnotation {
 	int start();
 	int length();
-	String type();
 
 }
